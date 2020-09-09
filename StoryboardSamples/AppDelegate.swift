@@ -8,6 +8,9 @@
 import UIKit
 import CoreData
 
+// Then 모듈을 자동으로 import하도록 셋팅
+@_exported import Then
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -76,6 +79,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
 

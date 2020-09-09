@@ -3,29 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		71162F6A2507A874003C5BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F692507A874003C5BB6 /* AppDelegate.swift */; };
 		71162F6C2507A874003C5BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6B2507A874003C5BB6 /* SceneDelegate.swift */; };
-		71162F6E2507A874003C5BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6D2507A874003C5BB6 /* ViewController.swift */; };
+		71162F6E2507A874003C5BB6 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6D2507A874003C5BB6 /* ContentVC.swift */; };
 		71162F712507A874003C5BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71162F6F2507A874003C5BB6 /* Main.storyboard */; };
 		71162F742507A874003C5BB6 /* StoryboardSamples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71162F722507A874003C5BB6 /* StoryboardSamples.xcdatamodeld */; };
 		71162F762507A875003C5BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71162F752507A875003C5BB6 /* Assets.xcassets */; };
 		71162F792507A875003C5BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71162F772507A875003C5BB6 /* LaunchScreen.storyboard */; };
+		71162F812507AAEA003C5BB6 /* NotificationSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F802507AAEA003C5BB6 /* NotificationSampleVC.swift */; };
+		71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F822507C477003C5BB6 /* BGTaskSampleVC.swift */; };
+		71162F852507C6E7003C5BB6 /* JsonSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F842507C6E7003C5BB6 /* JsonSampleVC.swift */; };
+		71162F8A2507D616003C5BB6 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 71162F892507D616003C5BB6 /* Then */; };
+		71162F8C2507D7DB003C5BB6 /* StackViewSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F8B2507D7DB003C5BB6 /* StackViewSampleVC.swift */; };
+		71614B4225089C98004B5E9C /* PageControlSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B4125089C98004B5E9C /* PageControlSampleVC.swift */; };
+		71614B442508B079004B5E9C /* SafeAreaSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */; };
+		71614B462508B98F004B5E9C /* ScrollablePageControlSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B452508B98F004B5E9C /* ScrollablePageControlSampleVC.swift */; };
+		71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71162F662507A874003C5BB6 /* StoryboardSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71162F692507A874003C5BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71162F6B2507A874003C5BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71162F6D2507A874003C5BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71162F6D2507A874003C5BB6 /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
 		71162F702507A874003C5BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71162F732507A874003C5BB6 /* StoryboardSamples.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoryboardSamples.xcdatamodel; sourceTree = "<group>"; };
 		71162F752507A875003C5BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71162F782507A875003C5BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71162F7A2507A875003C5BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71162F802507AAEA003C5BB6 /* NotificationSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSampleVC.swift; sourceTree = "<group>"; };
+		71162F822507C477003C5BB6 /* BGTaskSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGTaskSampleVC.swift; sourceTree = "<group>"; };
+		71162F842507C6E7003C5BB6 /* JsonSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonSampleVC.swift; sourceTree = "<group>"; };
+		71162F8B2507D7DB003C5BB6 /* StackViewSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewSampleVC.swift; sourceTree = "<group>"; };
+		71614B4125089C98004B5E9C /* PageControlSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlSampleVC.swift; sourceTree = "<group>"; };
+		71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSampleVC.swift; sourceTree = "<group>"; };
+		71614B452508B98F004B5E9C /* ScrollablePageControlSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePageControlSampleVC.swift; sourceTree = "<group>"; };
+		71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVCSampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71162F8A2507D616003C5BB6 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +78,20 @@
 			children = (
 				71162F692507A874003C5BB6 /* AppDelegate.swift */,
 				71162F6B2507A874003C5BB6 /* SceneDelegate.swift */,
-				71162F6D2507A874003C5BB6 /* ViewController.swift */,
+				71162F6D2507A874003C5BB6 /* ContentVC.swift */,
 				71162F6F2507A874003C5BB6 /* Main.storyboard */,
 				71162F752507A875003C5BB6 /* Assets.xcassets */,
 				71162F772507A875003C5BB6 /* LaunchScreen.storyboard */,
 				71162F7A2507A875003C5BB6 /* Info.plist */,
 				71162F722507A874003C5BB6 /* StoryboardSamples.xcdatamodeld */,
+				71162F802507AAEA003C5BB6 /* NotificationSampleVC.swift */,
+				71162F822507C477003C5BB6 /* BGTaskSampleVC.swift */,
+				71162F842507C6E7003C5BB6 /* JsonSampleVC.swift */,
+				71162F8B2507D7DB003C5BB6 /* StackViewSampleVC.swift */,
+				71614B4125089C98004B5E9C /* PageControlSampleVC.swift */,
+				71614B452508B98F004B5E9C /* ScrollablePageControlSampleVC.swift */,
+				71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */,
+				71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */,
 			);
 			path = StoryboardSamples;
 			sourceTree = "<group>";
@@ -86,6 +112,9 @@
 			dependencies = (
 			);
 			name = StoryboardSamples;
+			packageProductDependencies = (
+				71162F892507D616003C5BB6 /* Then */,
+			);
 			productName = StoryboardSamples;
 			productReference = 71162F662507A874003C5BB6 /* StoryboardSamples.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +142,9 @@
 				Base,
 			);
 			mainGroup = 71162F5D2507A874003C5BB6;
+			packageReferences = (
+				71162F882507D616003C5BB6 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = 71162F672507A874003C5BB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,8 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */,
+				71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */,
+				71162F812507AAEA003C5BB6 /* NotificationSampleVC.swift in Sources */,
+				71162F8C2507D7DB003C5BB6 /* StackViewSampleVC.swift in Sources */,
+				71162F852507C6E7003C5BB6 /* JsonSampleVC.swift in Sources */,
+				71614B442508B079004B5E9C /* SafeAreaSampleVC.swift in Sources */,
 				71162F742507A874003C5BB6 /* StoryboardSamples.xcdatamodeld in Sources */,
-				71162F6E2507A874003C5BB6 /* ViewController.swift in Sources */,
+				71614B462508B98F004B5E9C /* ScrollablePageControlSampleVC.swift in Sources */,
+				71162F6E2507A874003C5BB6 /* ContentVC.swift in Sources */,
+				71614B4225089C98004B5E9C /* PageControlSampleVC.swift in Sources */,
 				71162F6A2507A874003C5BB6 /* AppDelegate.swift in Sources */,
 				71162F6C2507A874003C5BB6 /* SceneDelegate.swift in Sources */,
 			);
@@ -345,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71162F882507D616003C5BB6 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71162F892507D616003C5BB6 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71162F882507D616003C5BB6 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		71162F722507A874003C5BB6 /* StoryboardSamples.xcdatamodeld */ = {
