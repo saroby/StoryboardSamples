@@ -19,6 +19,7 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             PageControlSampleVC.self,
             SafeAreaSampleVC.self,
             PageVCSampleVC.self,
+            OrthogonalScrollBehaviorSampleVC.self,
         ]
     ]
     
