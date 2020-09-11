@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71026855250BA98D00A1915A /* MapKitSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71026854250BA98D00A1915A /* MapKitSampleVC.swift */; };
 		71162F6A2507A874003C5BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F692507A874003C5BB6 /* AppDelegate.swift */; };
 		71162F6C2507A874003C5BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6B2507A874003C5BB6 /* SceneDelegate.swift */; };
 		71162F6E2507A874003C5BB6 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6D2507A874003C5BB6 /* ContentVC.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71026854250BA98D00A1915A /* MapKitSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSampleVC.swift; sourceTree = "<group>"; };
 		71162F662507A874003C5BB6 /* StoryboardSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71162F692507A874003C5BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71162F6B2507A874003C5BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */,
 				71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */,
 				71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */,
+				71026854250BA98D00A1915A /* MapKitSampleVC.swift */,
 			);
 			path = StoryboardSamples;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */,
+				71026855250BA98D00A1915A /* MapKitSampleVC.swift in Sources */,
 				71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */,
 				71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */,
 				71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */,

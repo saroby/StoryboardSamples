@@ -14,6 +14,7 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var dataSource: [[UIViewController.Type]] = [
         [
             JsonSampleVC.self,
+            MapKitSampleVC.self,
             NotificationSampleVC.self,
             OrthogonalScrollBehaviorSampleVC.self,
             PageControlSampleVC.self,
