@@ -24,6 +24,7 @@
 		71614B462508B98F004B5E9C /* ScrollablePageControlSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B452508B98F004B5E9C /* ScrollablePageControlSampleVC.swift */; };
 		71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */; };
 		71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */; };
+		71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		71614B452508B98F004B5E9C /* ScrollablePageControlSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePageControlSampleVC.swift; sourceTree = "<group>"; };
 		71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVCSampleVC.swift; sourceTree = "<group>"; };
 		71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorSampleVC.swift; sourceTree = "<group>"; };
+		71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarSampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */,
 				71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */,
 				71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */,
+				71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */,
 			);
 			path = StoryboardSamples;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */,
 				71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */,
 				71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */,
 				71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */,

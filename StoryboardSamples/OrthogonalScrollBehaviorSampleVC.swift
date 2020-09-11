@@ -12,7 +12,7 @@ import UIKit
 // 결론: groupPagingCentered에선 패딩과 그룹거리는 사용하지 않는 것이 좋겠다 (확인 버전:Version 12.0 beta 6)
 
 class OrthogonalScrollBehaviorSampleVC: UIViewController, UICollectionViewDelegate {
-
+    
     var dataSource: UICollectionViewDiffableDataSource<Int/*SectionIdentifierType*/, Int/*ItemIdentifierType*/>!
     
     var collectionView: UICollectionView!
@@ -30,7 +30,7 @@ class OrthogonalScrollBehaviorSampleVC: UIViewController, UICollectionViewDelega
         }
         
         // "셀 등록" 생성과 함께 셀 핸들러를 연결
-        let textCellRegisteration = UICollectionView.CellRegistration<TextCell, Int> { (cell, indexPath, identifier) in
+        let textCellRegisteration = UICollectionView.CellRegistration<TextCell, Int/*ItemIdentifierType*/> { (cell, indexPath, identifier) in
             cell.label.text = "\(indexPath.section), \(identifier)"
             cell.contentView.backgroundColor = .yellow
             cell.contentView.layer.borderColor = UIColor.black.cgColor
@@ -41,8 +41,11 @@ class OrthogonalScrollBehaviorSampleVC: UIViewController, UICollectionViewDelega
         }
         
         // 데이터 스토리지 생성과 함께 privider연결.
-        dataSource = UICollectionViewDiffableDataSource<Int, Int>(collectionView: self.collectionView, cellProvider: { (collectionView, indexPath, identifier) -> UICollectionViewCell? in
-            collectionView.dequeueConfiguredReusableCell(using: textCellRegisteration, for: indexPath, item: identifier)
+        dataSource = UICollectionViewDiffableDataSource<Int, Int>(collectionView: self.collectionView, cellProvider: { (collectionView, indexPath, itemId) -> UICollectionViewCell? in
+            // 예전과 달리, UICollectionViewDataSource를 쓰지 않는다.
+            // cell identifier를 register 쓰지 않고,
+            // item identifier를 넘겨주기 때문에 사용자가 indexPath로 item를 찾는 수고도 없어졌다.
+            collectionView.dequeueConfiguredReusableCell(using: textCellRegisteration, for: indexPath, item: itemId)
         })
         .then {
             let supplementaryRegistration = UICollectionView.SupplementaryRegistration
@@ -63,7 +66,6 @@ class OrthogonalScrollBehaviorSampleVC: UIViewController, UICollectionViewDelega
         // 더미데이터 추가
         var snapshot = NSDiffableDataSourceSnapshot<Int/*SectionIdentifierType*/, Int/*ItemIdentifierType*/>()
         snapshot.appendSections([ 0 ])
-        
         //appendItems(<#T##identifiers: [Int]##[Int]#>)는 마지막 섹션에 아이템을 추가한다.
         //appendItems(<#T##identifiers: [Int]##[Int]#>, toSection: <#T##Int?#>)는 section identifier에 해당하는 section에 아이템을 추가한다.
         snapshot.appendItems(Array(0..<20))

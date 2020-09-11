@@ -13,13 +13,14 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var dataSource: [[UIViewController.Type]] = [
         [
-            NotificationSampleVC.self,
             JsonSampleVC.self,
-            StackViewSampleVC.self,
-            PageControlSampleVC.self,
-            SafeAreaSampleVC.self,
-            PageVCSampleVC.self,
+            NotificationSampleVC.self,
             OrthogonalScrollBehaviorSampleVC.self,
+            PageControlSampleVC.self,
+            PageVCSampleVC.self,
+            SafeAreaSampleVC.self,
+            SearchBarSampleVC.self,
+            StackViewSampleVC.self,
         ]
     ]
     
@@ -27,6 +28,9 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         super.viewDidLoad()
         
         title = "Storyboard 샘플"
+        
+        // (옵션) 네비게이션바가 투명하지 않게 함. 기본값 true
+//        navigationController?.navigationBar.isTranslucent = false
         
         tableView = UITableView(frame: view.frame)
         tableView.delegate = self
