@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71026855250BA98D00A1915A /* MapKitSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71026854250BA98D00A1915A /* MapKitSampleVC.swift */; };
+		71026858250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71026857250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift */; };
 		71162F6A2507A874003C5BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F692507A874003C5BB6 /* AppDelegate.swift */; };
 		71162F6C2507A874003C5BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6B2507A874003C5BB6 /* SceneDelegate.swift */; };
 		71162F6E2507A874003C5BB6 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71162F6D2507A874003C5BB6 /* ContentVC.swift */; };
@@ -23,12 +24,14 @@
 		71614B4225089C98004B5E9C /* PageControlSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B4125089C98004B5E9C /* PageControlSampleVC.swift */; };
 		71614B442508B079004B5E9C /* SafeAreaSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */; };
 		71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */; };
+		71A46B5F250D23540064F531 /* SwipePageExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */; };
 		71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */; };
 		71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		71026854250BA98D00A1915A /* MapKitSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSampleVC.swift; sourceTree = "<group>"; };
+		71026857250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipePageDiffableDataSourceExampleVC.swift; sourceTree = "<group>"; };
 		71162F662507A874003C5BB6 /* StoryboardSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71162F692507A874003C5BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71162F6B2507A874003C5BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		71614B4125089C98004B5E9C /* PageControlSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlSampleVC.swift; sourceTree = "<group>"; };
 		71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSampleVC.swift; sourceTree = "<group>"; };
 		71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVCSampleVC.swift; sourceTree = "<group>"; };
+		71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipePageExampleVC.swift; sourceTree = "<group>"; };
 		71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorSampleVC.swift; sourceTree = "<group>"; };
 		71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarSampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71026856250C88F200A1915A /* ExampleVC */ = {
+			isa = PBXGroup;
+			children = (
+				71026857250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift */,
+				71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */,
+			);
+			path = ExampleVC;
+			sourceTree = "<group>";
+		};
 		71162F5D2507A874003C5BB6 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 		71162F682507A874003C5BB6 /* StoryboardSamples */ = {
 			isa = PBXGroup;
 			children = (
+				71026856250C88F200A1915A /* ExampleVC */,
 				71162F692507A874003C5BB6 /* AppDelegate.swift */,
 				71162F6B2507A874003C5BB6 /* SceneDelegate.swift */,
 				71162F6D2507A874003C5BB6 /* ContentVC.swift */,
@@ -180,6 +194,7 @@
 			files = (
 				71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */,
 				71026855250BA98D00A1915A /* MapKitSampleVC.swift in Sources */,
+				71A46B5F250D23540064F531 /* SwipePageExampleVC.swift in Sources */,
 				71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */,
 				71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */,
 				71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */,
@@ -189,6 +204,7 @@
 				71614B442508B079004B5E9C /* SafeAreaSampleVC.swift in Sources */,
 				71162F742507A874003C5BB6 /* StoryboardSamples.xcdatamodeld in Sources */,
 				71162F6E2507A874003C5BB6 /* ContentVC.swift in Sources */,
+				71026858250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift in Sources */,
 				71614B4225089C98004B5E9C /* PageControlSampleVC.swift in Sources */,
 				71162F6A2507A874003C5BB6 /* AppDelegate.swift in Sources */,
 				71162F6C2507A874003C5BB6 /* SceneDelegate.swift in Sources */,

@@ -42,14 +42,6 @@
             </objects>
             <point key="canvasLocation" x="-30.434782608695656" y="93.75"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="rfB-dx-2sc">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5Jx-45-1YC" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ikt-X0-gUl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="84" y="-579"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

@@ -22,6 +22,10 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             SafeAreaSampleVC.self,
             SearchBarSampleVC.self,
             StackViewSampleVC.self,
+        ],
+        [
+            SwipePageDiffableDataSourceExampleVC.self,
+            SwipePageExampleVC.self,
         ]
     ]
     
@@ -33,7 +37,7 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // (옵션) 네비게이션바가 투명하지 않게 함. 기본값 true
 //        navigationController?.navigationBar.isTranslucent = false
         
-        tableView = UITableView(frame: view.frame)
+        tableView = UITableView(frame: view.frame, style: .insetGrouped)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "default")
