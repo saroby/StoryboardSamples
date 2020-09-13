@@ -19,11 +19,18 @@ class MapKitSampleVC: UIViewController, CLLocationManagerDelegate {
 
         mapView = MKMapView().then {
             $0.frame = view.bounds
-            $0.showsUserLocation = true
-            $0.showsCompass = true
+//            $0.showsUserLocation = true
+//            $0.showsCompass = true
 
-            view.addSubview($0)
+             view.addSubview($0)
         }
+        
+//        let nearMe = MKUserTrackingButton(mapView: mapView)
+//        nearMe.frame.size = CGSize(width: 24, height: 24)
+//        nearMeParent.addSubview(nearMe!)
+//        let compass = MKCompassButton(mapView: mapView)
+//        compassParent.addSubview(compass)
+
         
         locationMgr = CLLocationManager().then {
             // 사용자의 활동유형 지정(기본값 other). 위치 업데이트가 자동으로 일시 중지 될 수 있는 시기를 결정하는 데 영향을 줌.

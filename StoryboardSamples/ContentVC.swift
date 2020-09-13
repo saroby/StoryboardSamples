@@ -26,6 +26,9 @@ class ContentVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         [
             SwipePageDiffableDataSourceExampleVC.self,
             SwipePageExampleVC.self,
+        ],
+        [
+            SubjectRxSwiftVC.self
         ]
     ]
     

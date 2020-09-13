@@ -25,6 +25,10 @@
 		71614B442508B079004B5E9C /* SafeAreaSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */; };
 		71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */; };
 		71A46B5F250D23540064F531 /* SwipePageExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */; };
+		71A46B62250DD58E0064F531 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71A46B61250DD58E0064F531 /* RxSwift */; };
+		71A46B64250DD58E0064F531 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 71A46B63250DD58E0064F531 /* RxCocoa */; };
+		71A46B66250DD5D00064F531 /* LoginExampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A46B65250DD5D00064F531 /* LoginExampleVC.swift */; };
+		71A46B69250E01BB0064F531 /* SubjectRxSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A46B68250E01BB0064F531 /* SubjectRxSwiftVC.swift */; };
 		71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */; };
 		71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +53,9 @@
 		71614B432508B079004B5E9C /* SafeAreaSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaSampleVC.swift; sourceTree = "<group>"; };
 		71614B472508BAB8004B5E9C /* PageVCSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVCSampleVC.swift; sourceTree = "<group>"; };
 		71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipePageExampleVC.swift; sourceTree = "<group>"; };
+		71A46B65250DD5D00064F531 /* LoginExampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginExampleVC.swift; sourceTree = "<group>"; };
+		71A46B68250E01BB0064F531 /* SubjectRxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectRxSwiftVC.swift; sourceTree = "<group>"; };
+		71A46B6A250E02D20064F531 /* RxSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwift.md; sourceTree = "<group>"; };
 		71E7051B2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorSampleVC.swift; sourceTree = "<group>"; };
 		71E7051D250A1B0C0033EC8E /* SearchBarSampleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarSampleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A46B64250DD58E0064F531 /* RxCocoa in Frameworks */,
+				71A46B62250DD58E0064F531 /* RxSwift in Frameworks */,
 				71162F8A2507D616003C5BB6 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +79,7 @@
 			children = (
 				71026857250C896F00A1915A /* SwipePageDiffableDataSourceExampleVC.swift */,
 				71A46B5E250D23540064F531 /* SwipePageExampleVC.swift */,
+				71A46B65250DD5D00064F531 /* LoginExampleVC.swift */,
 			);
 			path = ExampleVC;
 			sourceTree = "<group>";
@@ -93,6 +103,7 @@
 		71162F682507A874003C5BB6 /* StoryboardSamples */ = {
 			isa = PBXGroup;
 			children = (
+				71A46B67250DFFF10064F531 /* Rxswift */,
 				71026856250C88F200A1915A /* ExampleVC */,
 				71162F692507A874003C5BB6 /* AppDelegate.swift */,
 				71162F6B2507A874003C5BB6 /* SceneDelegate.swift */,
@@ -116,6 +127,15 @@
 			path = StoryboardSamples;
 			sourceTree = "<group>";
 		};
+		71A46B67250DFFF10064F531 /* Rxswift */ = {
+			isa = PBXGroup;
+			children = (
+				71A46B68250E01BB0064F531 /* SubjectRxSwiftVC.swift */,
+				71A46B6A250E02D20064F531 /* RxSwift.md */,
+			);
+			path = Rxswift;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +154,8 @@
 			name = StoryboardSamples;
 			packageProductDependencies = (
 				71162F892507D616003C5BB6 /* Then */,
+				71A46B61250DD58E0064F531 /* RxSwift */,
+				71A46B63250DD58E0064F531 /* RxCocoa */,
 			);
 			productName = StoryboardSamples;
 			productReference = 71162F662507A874003C5BB6 /* StoryboardSamples.app */;
@@ -164,6 +186,7 @@
 			mainGroup = 71162F5D2507A874003C5BB6;
 			packageReferences = (
 				71162F882507D616003C5BB6 /* XCRemoteSwiftPackageReference "Then" */,
+				71A46B60250DD58E0064F531 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 71162F672507A874003C5BB6 /* Products */;
 			projectDirPath = "";
@@ -193,9 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				71E7051E250A1B0C0033EC8E /* SearchBarSampleVC.swift in Sources */,
+				71A46B69250E01BB0064F531 /* SubjectRxSwiftVC.swift in Sources */,
 				71026855250BA98D00A1915A /* MapKitSampleVC.swift in Sources */,
 				71A46B5F250D23540064F531 /* SwipePageExampleVC.swift in Sources */,
 				71614B482508BAB8004B5E9C /* PageVCSampleVC.swift in Sources */,
+				71A46B66250DD5D00064F531 /* LoginExampleVC.swift in Sources */,
 				71E7051C2509D3450033EC8E /* OrthogonalScrollBehaviorSampleVC.swift in Sources */,
 				71162F832507C477003C5BB6 /* BGTaskSampleVC.swift in Sources */,
 				71162F812507AAEA003C5BB6 /* NotificationSampleVC.swift in Sources */,
@@ -419,6 +444,14 @@
 				minimumVersion = 2.7.0;
 			};
 		};
+		71A46B60250DD58E0064F531 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -426,6 +459,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 71162F882507D616003C5BB6 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		71A46B61250DD58E0064F531 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71A46B60250DD58E0064F531 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		71A46B63250DD58E0064F531 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71A46B60250DD58E0064F531 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
 		};
 /* End XCSwiftPackageProductDependency section */
 
